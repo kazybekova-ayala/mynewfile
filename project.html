@@ -4,38 +4,39 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Form Elements</title>
-</head>
+</head> 
 <body>
-   <form action="/submit" method="post">
-    <fieldset>
-        <legend>Fill in the data </legend>
-       <label for="name">Name:</label>
-       <input type="text" id="name" name="name" required><br />
+   <form action="/submit" method="post"> <!-- Добавление form как контейнер следущих элементов-->
+    <fieldset> 
+        <legend>Fill in the data </legend> <!--Для группировки элементов legend и fieldset-->
+       <label for="name">Name:</label> <!-- label связывает текстовую метку с элементом формы-->
+       <input type="text" id="name" name="name" required><br /> <!-- input для ввода данных,type даём тип ввода-->
        <label for="email">Email:</label>
        <input type="email" id="email" name="email" required><br />
+       <!--Всё тоже самое, изменяеться type ввода= email -->
        <label for="password">Password:</label>
-       <input type="password" id="password" name="password" required>
+       <input type="password" id="password" name="password" required> <!--  тоже самое . лишь type ввода=password-->
+       <br> <!-- br для перехода на новую строку-->
        <br>
-       <br>
-       <button type="submit">Submit</button>
-       <label for="message">Message:</label>
+       <button type="submit">Submit</button> <!-- создание кнопки -->
+       <label for="message">Message:</label> <!--Связывание текстовой метки с элементом формы-->
        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+       <!--textarea для многострочного текста, также даём количество строк и символов которых можем ввести-->
        <label for="country">Country:</label>
-       <select id="country" name="country" required>
+       <select id="country" name="country" required> <!--Для создания выпадающегося списка -->
            <option value="">Select your country</option>
            <option value="us">United States</option>
            <option value="ca">Canada</option>
            <option value="ru">Russia</option>
            <option value="ka">Kazakhstan</option>
            <option value="ch">China</option>
-           <option value="uz">Uzbekistan</option>
+           <option value="uz">Uzbekistan</option> <!--Создание вариантов выбора-->
        </select>
        <br>
        <br>
-       <button type="submit">Submit</button>
-       <button type="reset">Reset</button>
+       <button type="submit">Submit</button> <!--Создание кнопки для отправки данных -->
+       <button type="reset">Reset</button> <!--Создание кнопки для сброса данных-->
     </fieldset>
-   </form>
-
+</form>
 </body>
 </html>
