@@ -1,0 +1,26 @@
+p {
+   color: blue;
+   font-size: 16px;
+}
+
+
+#h1 { 
+    color: red;
+   text-align: center;
+}
+
+.list {
+   color: black;
+   font-weight: bold;
+}
+
+#print {
+    color: green;
+    font-weight: bold;
+}
+
+.print {
+    color: grey;
+     text-align: center;
+}
+
