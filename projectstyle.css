@@ -1,0 +1,47 @@
+#h1 {
+    color: rgba(8, 8, 117, 0.733);
+    font-weight: bold; 
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#h2 {
+    color:rgb(3, 3, 39);
+    font-size: 20px;
+    text-align: center;
+    padding: 10 px;
+}
+
+.list {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.list1 {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px;
+}
+
+.a {
+    color: rgb(20, 167, 135);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+#p {
+    background-color: lightgray;
+    width: 200px;
+    height: 80px;
+    border: 2px solid rgb(49, 38, 38);
+    overflow: hidden;
+}
+
+body {
+    background-image:url('images.htttml.png');
+}
+
+/* edtrftyguhijok */
