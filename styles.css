@@ -1,26 +1,30 @@
 p {
-   color: blue;
-   font-size: 16px;
+   color: blue; /*задаётся цвет голубой*/
+   font-size: 16px; /*размер шрифта*/
 }
+/*селектор по элементу*/
 
 
 #h1 { 
-    color: red;
-   text-align: center;
+    color: red; /*задаётся цвет красный*/
+   text-align: center; /*расположение элемента (посередине)*/
 }
+/*селетор по айди*/
 
 .list {
-   color: black;
-   font-weight: bold;
+   color: black; /*задаётся цвет черный*/
+   font-weight: bold; /*выбирается измение шрифта на жирный*/
 }
+/*селектор по классам*/
 
 #print {
-    color: green;
-    font-weight: bold;
+    color: green; /*задаётся цвет зеленый*/
+    font-weight: bold; /*выбирается изменение шрифта на жирный*/
 }
+/*селектор по айди*/
 
 .print {
-    color: grey;
-     text-align: center;
+    color: grey; /*задаётся серый цветт*/
+     text-align: center; /*расположение элемента по центру*/
 }
-
+/*селектор по классам*/

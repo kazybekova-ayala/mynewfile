@@ -1,47 +1,53 @@
 #h1 {
-    color: rgba(8, 8, 117, 0.733);
-    font-weight: bold; 
-    margin: 10px;
-    text-align: center;
-    font-size: 35px;
+    color: rgba(8, 8, 117, 0.733); /*задаётся синий цвет*/
+    font-weight: bold; /*толщина шрифта жирный*/
+    margin: 10px; /*внешние отступы элемента*/
+    text-align: center; /*выравнивание текста внутри элемента*/
+    font-size: 35px; /*размер щрифта 35 пикселей*/
 }
+/*селектор по айди*/
 
 #h2 {
-    color:rgb(3, 3, 39);
-    font-size: 20px;
-    text-align: center;
-    padding: 10 px;
+    color:rgb(3, 3, 39); /*задаётся черный цвет*/
+    font-size: 20px; /*размер шрифта 20 пикселей*/
+    text-align: center;/*выравние текста внутри элемента*/
+    padding: 10 px;/*внутренние отступы элемента*/
 }
+/*селектор по айди*/
 
 .list {
-    color: black;
-    font-weight: bold;
-    font-size: 28px;
+    color: black;/*задаёт черный цвет*/
+    font-weight: bold;/*толщина шрифта на жирный*/
+    font-size: 28px; /*размер шрифта 28 пикселей*/
 }
+/*селектор по классам*/
 
 .list1 {
-    color:black;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 12px;
+    color:black; /*выбирается черный цвет*/
+    font-weight: bold; /*толщина шрифта*/
+    font-size: 20px;/*размер шрифта*/
+    margin: 12px; /*внешние отступы 12 пикселей*/
 }
+/*селектор по классам */
 
 .a {
-    color: rgb(20, 167, 135);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+    color: rgb(20, 167, 135); /*цвет голубой*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*задаётся семейство шрифтов для текста*/
+    padding: 10px; /*внутренние отступы*/
 }
+/*селектор по классам*/
 
 #p {
-    background-color: lightgray;
-    width: 200px;
-    height: 80px;
-    border: 2px solid rgb(49, 38, 38);
-    overflow: hidden;
+    background-color: lightgray; /*цвет фона элемента*/
+    width: 200px; /*ширина 200 пикселей*/
+    height: 80px; /*высота 80 пикселей*/
+    border: 2px solid rgb(49, 38, 38); /*задаём цвет границы ширину и стиль элементу*/
+    overflow: hidden; /*устанавливаем управление содержимым если оно выхожит за границы блока*/
 }
+/*селектор по айди*/
 
 body {
-    background-image:url('images.htttml.png');
+    background-image:url('images.htttml.png'); /*фоновое изображение элемента*/
 }
 
-/* edtrftyguhijok */
+/* селектор по элементу  */
