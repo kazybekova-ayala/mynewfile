@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="psevdoclass.css"> <!--Связывание c psevdoclass.css-->
+</head>
+<body>
+    <h1 class="h1">homework</h1>
+    <p class="p">урок:16 псевдоклассы</p>
+     <form action="/submit" method="post"> <!-- Добавление form как контейнер следущих элементов--> 
+        <label for="name">Name:</label> <!-- label связывает текстовую метку с элементом формы-->
+        <input class="input" type="text" id="name" name="name" required><br /> <!-- input для ввода данных,type даём тип ввода-->
+        <button  class="button" type="submit">Click me </button> <!-- создание кнопки -->
+        <p class="list">Элементы формы</p> <!--создаём селектор по классам для заголовка-->
+    <ul><!--создвние списка (для дальнейшего применения стилей к первому и последнему элементу)-->
+        <li class="list-item">input</li> <!-- элементы списка-->
+        <li class="list-item">label</li> 
+        <li class="list-item">textarea</li>
+        <li class="list-item">button</li>
+        <li class="list-item">select</li>
+    </ul> <!--закрытие списка-->
+    <div> <!-- закрытие контейнера -->
+        <p class="class">:hover Применяется, когда пользователь наводит курсор на элемент.</p></div> <!--создание селектора по классам для абзаца (для дальнейшего применеие псевдокласса)-->
+        <img class="img" src="./psevdo.jpeg" alt="Описание изображения" width="500" height="350"></div> <!--создание селектор по классам для изображения -->
+        <a class="s" href="https://www.google.com/search?sca_esv=97d6bc6275cad0e2&udm=2&fbs=AIIjpHzQki16q-8Z7j6aseYi2jA_y62A2lR0BESSGws5OHyBpZWkpFkBi5iRoZjl4WBj9VzjdQjR4m_BdIA-T-yMLpo4cMbnYzOVzJoR0DMzFNiGBdg6iBams2XNVKmYasI_H-vvHGOXolNXEW8wsyakhr0372MILy8qEIsiCRRI_pkIVm_R80Drl_2A5-RPqguTiAj0G5FGDOJ3jAwWWhyscYQzaVaGQsBShn61mul9YNl211pzNiTjeerpbMfoUbQlgzgLkZdmVKcki68Z6NB6NY9tJbH81g&q=%D0%BF%D1%81%D0%B5%D0%B2%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B&sa=X&sqi=2&ved=2ahUKEwiIwv6qiuKQAxWWKxAIHZp5DMoQtKgLegQIFRAB&safe=active&ssui=on#vhid=t2Qeofn6Hx9OIM&vssid=mosaic" target="_blank">Ссылка на поиск других похожих изображений можно найти тут</a> <!--создание селектора по классам для ссылки-->
+        <ul class="a"> <!-- создание списка (для дальнейшего применение стилей для четных и нечетных элементов) -->
+       <li class="list_item2">Элемент 1</li> <!--элементы списка-->
+       <li class="list_item2">Элемент 2</li>
+       <li class="list_item2">Элемент 3</li>
+       <li class="list_item2">Элемент 4</li>
+       <li class="list_item2">Элемент 5</li>
+   </ul>  <!-- закрытие списка-->
+
+    </div> <!-- закрытие контейнера-->
+<h1> Комбинация псевдоклассов</h1> <!-- создание заголовка-->
+<ul class="combi"> <!--создание селектора по классам для списка (комбинация псевдоклассов)-->
+    <li class="list_item3">Первый элемент</li> <!-- элементы списка-->
+    <li class="list_item3">второй элемент</li>
+    <li class="list_item3">третий элемент</li>
+    <li class="list_item3">четвертый элемент</li>
+</ul> <!-- закрыие списка-->
+<button class="list4">knopka1</button> <!--создание кнопок ( в дальнейшем для комбинаций)-->
+<button class="list4">knopka2</button>
+<button class="list4">knopka3</button>
+
+       
+</html>
