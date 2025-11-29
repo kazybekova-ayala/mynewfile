@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Позиционировние элементов</title>
+    <link rel="stylesheet" href="positelem.css"> <!--Связывание с GSS-->
+</head>
+<body>
+    <div class="static1">Элементы с position:static</div> <!--Создание селектора по классам для дальнейшей работы с ним с position:static-->
+    <div class="static1">Элементы c position: static являются обычными элементами потока,</div> <!--элементы-->
+    <div class="static1">они располагаются в соответствии с нормальным потоком документа</div>
+    <div class="static1">Является значением по умолчанию для всех элементов HTML.</div>
+    <!--Positin:static распологаються в соответсвие с нормальным потоком документа -->
+
+    <div class="absolute-relative"> Элементы с position: absolute <!--создание контейнерного блока для элементов (для работы с ним с position:absolute)-->
+        <div class="absolutely2">Элементы с position: absolute позиционируются относительно ближайшего предка с position отличным от static.</div><!--элементы-->
+        <div class="absolutely3">Если таких предков нет, элемент позиционируется относительно начального контейнера (обычно <body>).</div>
+    </div>
+    <!--Position:absolute распологфеться относительно ближайщего предка с position отличным от static-->
+    <!--в нащем случае относительно ближайщего relative-->
+
+    <div class="relative1">Элементы с position: relative <!--cоздпние контейнерного блока для элментов для работы с ним с position:relative-->
+        <div class="relative2">Они располагаются в обычном потоке документа, </div> <!--элементы-->
+        <div class="relative2">но можно использовать свойства , right, bottom и left для их смещения относительно их нормального </div>
+     </div>
+     <!--Position:relative распологаються обычно как (static), но можно использовать свойства для смещения-->
+
+     <div class="fix1">Элементы с position: fixed </div> <!--создание блока с текстом-->
+     <!--Position:fixed распологаеться относительно окна браузера и остаёться на месте при прокрутке страницы-->
+
+     <div class="sticky1"> <!--создание контейнерного блока для работы с sticky-->
+           <div class="sticky2">Элементы с position: sticky ведут себя как relative до тех пор, пока не достигнут заданной позиции при прокрутке, после чего ведут себя как fixed.</div> <!--элементы-->
+           <p>texttt</p> 
+       </div>
+       <!--Position sticky распологаеться как relative но при проrрутке ведет себя как fixed-->
+
+</body>
+</html>

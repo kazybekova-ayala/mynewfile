@@ -1,0 +1,64 @@
+.static1{
+    position: static; /*позиционирование элемента:static*/
+    color:black; /*цвет текста черный*/
+    background-color: lightgreen; /*фоновый цвет текста */
+    
+}
+.relative2{
+    position:relative; /*позиционирование элемента : relative*/
+    top:20px;/*свойства для смещение (на сколько пикселей вправо , лево, вверх, вниз)*/
+    right: 30px;
+    bottom: 40px;
+    left: 10px;
+}
+.absolute-relative{
+    position: relative;/*позиционирование элемента: relative*/
+    background-color: lightblue;/*фоновый цвет текста */
+    height: 100px;/*высота (фонового цвета текста) */
+    weight:100px;/*ширина*/
+}
+
+.absolutely2{
+    position:absolute; /* позиционирование :absolute*/
+    top: 50px; /*свойства для смещения */
+    right:50px;
+    bottom:50px;
+    left:50px;
+}
+.absolutely3{
+    position: absolute;/*позиционирование :absolute*/
+    top:68px; /*свойсва для смещения */
+    right: 68px;
+    bottom:68px;
+    left: 68px;
+}
+.relative1{
+    position: relative; /*позиционирование :relative*/
+    background-color: lightpink; /*фоновый цвет текста */
+    weight: 100px; /*ширина */
+    height: 100px;/*высота*/
+}
+.relative2{
+    position: relative; /* позиционирование :relative*/
+    top: 20px;/*свойства для смещения(расположение )*/
+    right: 40px;
+    bottom:20px;
+    left:40px;
+}
+
+.fix1{
+    position: fixed; /* позиционирование элемента:fixed*/
+    right:10px; /*свойства для смещения (относительно окна браузера)*/
+    bottom:15px; /*расстояние снизу*/
+}
+ .sticky1 {
+ height: 2000px; /*высота элмента (для прокрутки)*/
+ }
+
+ .sticky2 {
+position: sticky;/*позиционирование элемента :sticky*/
+top: 10px; /*расстояния от верхнего края элемента*/
+background-color: lightyellow; /*фоновый цвет текста */
+padding: 10px; /*отступы*/
+border: 1px solid #ccc; /*цвет, толщина,*/
+}
